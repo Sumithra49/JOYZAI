@@ -1,0 +1,61 @@
+.app-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-group button {
+  margin-left: 5px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
